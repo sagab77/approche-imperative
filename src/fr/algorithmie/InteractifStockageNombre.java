@@ -1,2 +1,6 @@
-package fr.algorithmie;public class InteractifStockageNombre {
+package fr.algorithmie;
+
+public class InteractifStockageNombre {
+
+
 }

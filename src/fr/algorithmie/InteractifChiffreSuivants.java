@@ -3,16 +3,19 @@ package fr.algorithmie;
 
 import java.util.Scanner;
 
-     public class InteractifChiffreSuivants {
+public class InteractifChiffreSuivants {
 
     private static final Scanner sc = new Scanner(System.in);
 
 
-    public static void afficherDixChiffresSuivantsA() {
+    public static void afficherDixCifSuiv() {
 
         System.out.println("Veuillez saisir un chiffre: ");
+
         int nombre = sc.nextInt();
+
         System.out.print("Les chiffres suivants à  " + nombre + " sont: ");
+
         for (int i = 1; i <= 10; i++) {
             System.out.print((nombre + i) + " ");
         }
@@ -20,6 +23,6 @@ import java.util.Scanner;
     }
 
     public static void main(String[] args) {
-        afficherDixChiffresSuivantsA();
+         afficherDixCifSuiv();
     }
 }

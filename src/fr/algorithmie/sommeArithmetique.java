@@ -3,10 +3,12 @@ package fr.algorithmie;
 import java.util.Scanner;
 
 public class sommeArithmetique {
+
     private static final Scanner sc = new Scanner(System.in);
 
 
-    public static void calculerSommeChiffreEntre(){
+    public static void calcSomme(){
+
         System.out.println("Veuillez saisir un chiffre: ");
         int nombre = sc.nextInt();
 
@@ -18,6 +20,6 @@ public class sommeArithmetique {
     }
 
     public static void main(String[] args) {
-        calculerSommeChiffreEntre();
+        calcSomme();
     }
 }
